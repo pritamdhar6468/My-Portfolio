@@ -3,7 +3,7 @@ import "./Navbar"
 
 function Navbar() {
   return (
-    <div className='h-[3rem] bg-gray-700 flex justify-center items-center align-center gradient '>
+    <div className='h-[4rem] w-[100%] bg-black shadow-lg fixed flex justify-center items-center align-center gradient1 '>
         <div className=''>
             <img src="vite.svg" alt="" />
         </div>

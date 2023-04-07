@@ -5,7 +5,9 @@
   background: black;
 } */
 body{
+  width: 100%;
+  height: auto;
   font-family: 'Lilita One', cursive;
-  padding: 3rem 5rem;
+ 
   background: linear-gradient(black,gray);
 }
