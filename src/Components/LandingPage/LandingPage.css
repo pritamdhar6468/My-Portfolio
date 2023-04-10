@@ -10,3 +10,6 @@
 .hthree{
     font-family: 'ubuntu', sans-serif;
 }
+.bakkground{
+    background: linear-gradient(to right,rgb(69, 245, 166),rgb(69, 119, 236));
+}

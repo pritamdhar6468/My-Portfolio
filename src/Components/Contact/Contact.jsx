@@ -3,8 +3,8 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <section className="p-[10rem] bg-gray-300 gap-20 ">
-      <div className="flex justify-center item-center text-5xl pb-8 text-gray-500  font-bold "><h1>Contact</h1></div>
+    <section className="p-[10rem] bakground gap-20 ">
+      <div className="flex justify-center item-center text-5xl pb-8 text-white  font-bold "><h1>Contact</h1></div>
       <div className="flex gap-10">
         
         
@@ -15,41 +15,41 @@ function Contact() {
           />
         
         
-          <div className="border-2 p-[2rem] h-full w-full">
+          <div className="border-2 bg-white p-[2rem] h-full w-full rounded-lg shadow-lg">
             <form action="">
-              <label htmlFor="name">Name:</label>
+              <label htmlFor="name" className="text-xl font-mono font-bold">Name:</label>
               <br />
               <input
                 type="text"
                 id="name"
                 name="name"
-                className="rounded-md text-4xl "
+                className="rounded-md  bg-gray-200 w-full h-10 "
               />
               <br />
-              <label htmlFor="email">Email:</label>
+              <label htmlFor="email" className="text-xl font-mono font-bold">Email:</label>
               <br />
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="rounded-md text-4xl"
+                className="rounded-md bg-gray-200  w-full h-10"
               />
               <br />
 
-              <label htmlFor="textarea">Message:</label>
+              <label htmlFor="textarea" className="text-xl font-mono font-bold">Message:</label>
               <br />
               <textarea
                 name="textarea"
                 id=""
                 cols="20"
                 rows="5"
-                className="w-full h-auto"
+                className="w-full bg-gray-200  h-auto"
               ></textarea>
 
               <input
                 type="button"
                 value="submit"
-                className="border-2 p-2 rounded-md bg-green-500 w-full"
+                className="border-2 p-2 rounded-md bg-green-900 text-white font-mono font-bold hover:cursor-pointer w-full"
               />
             </form>
           </div>

@@ -7,3 +7,6 @@ h1{
 .para{
     font-family: 'ubuntu', sans-serif;
 }
+.bakground{
+    background: linear-gradient(to right,rgb(232, 230, 121),rgb(142, 243, 114));
+}
