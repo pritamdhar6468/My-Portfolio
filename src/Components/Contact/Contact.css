@@ -2,11 +2,13 @@
 
 h1{
     font-family: 'oxygen', sans-serif;
+    color: blue;
+    font-weight: 800;
     
 }
 .para{
     font-family: 'ubuntu', sans-serif;
 }
 .bakground{
-    background: linear-gradient(to right,rgb(232, 230, 121),rgb(142, 243, 114));
+    background: linear-gradient(24deg,rgb(135, 244, 204),rgb(99, 239, 139));
 }

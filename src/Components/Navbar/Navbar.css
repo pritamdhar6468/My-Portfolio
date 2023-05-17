@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:ital,wght@0,300;0,500;1,100&family=Ubuntu:ital@1&display=swap');
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    color: aqua;  
+}
+.hide{
+    display: none;
+}
